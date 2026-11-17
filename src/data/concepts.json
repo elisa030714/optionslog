@@ -1,0 +1,377 @@
+[
+  {
+    "conceptId": "concept_rawls_difference",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "rawls",
+    "philosopherName": "롤스",
+    "conceptName": "차등의 원칙",
+    "definition": "사회적·경제적 불평등은 최소 수혜자에게 최대의 이익(최대 최소의 원리, maximin)이 돌아가도록 편성될 때에만 정당화된다는 롤스의 정의의 제2원칙 하위 원리입니다.",
+    "keyPrinciples": [
+      "정의로운 사회에서도 사회적·경제적 불평등 자체가 모두 제거되어야 하는 것은 아니다.",
+      "천부적 재능의 분포를 공동의 자산으로 간주하고, 그로 인한 이익을 최소 수혜자와 나누어야 한다.",
+      "불평등이 허용되더라도 최소 수혜자의 처지가 평등 분배 상황보다 개선되어야 한다."
+    ],
+    "necessaryConditions": [
+      "제1원칙(평등한 자유의 원칙)과 제2원칙의 '공정한 기회균등의 원칙'이 축차적(사전적) 순서에 따라 먼저 충족되어야 한다.",
+      "가능한 사회 기본 구조(제도)의 범위 안에서 최소 수혜자의 기대 이익을 극대화해야 한다.",
+      "최소 수혜자의 이익을 명목으로 기본적 자유를 침해하거나 공정한 기회를 박탈할 수 없다."
+    ],
+    "commonMisconceptions": [
+      "롤스는 평등을 중시하므로 모든 경제적 불평등을 제거하고 결과를 균등하게 맞춰야 한다고 오해함",
+      "최소 수혜자에게 이익이 된다면 기본적 자유도 일부 제한할 수 있다고 오해함 (제1원칙의 우선성 위배)",
+      "천부적 재능 자체를 개인에게서 몰수하거나 없애야 한다고 오해함 (재능 자체가 아니라 재능의 '분포'를 공동 자산으로 봄)"
+    ],
+    "relatedConceptIds": [
+      "concept_rawls_equal_liberty",
+      "concept_rawls_fair_opportunity",
+      "concept_rawls_procedural_justice"
+    ],
+    "contrastingConceptIds": [
+      "concept_nozick_entitlement",
+      "concept_nozick_rectification"
+    ],
+    "relatedOptionIds": [
+      "q2025_09_07_opt1",
+      "q2025_09_07_opt2",
+      "q2025_06_11_opt3",
+      "q2024_11_09_opt1",
+      "q2024_11_09_opt4",
+      "q2024_09_14_opt2"
+    ],
+    "examples": [
+      {
+        "title": "사회 A [30, 30, 30] vs 사회 B [80, 60, 40] 비교 (교육용 단순화 모델)",
+        "situation": "평등한 자유의 원칙과 공정한 기회균등의 원칙이 충족되었다고 가정할 때, 모든 구성원의 소득이 30으로 동일한 '사회 A'와 구성원 소득이 80, 60, 40으로 불평등하지만 최소 수혜자의 소득이 40인 '사회 B' 중 어느 사회가 더 정의로운가?",
+        "philosopherView": "롤스의 차등의 원칙에 따르면 사회 B가 더 부합합니다. 비록 소득 격차(불평등)가 존재하지만, 최소 수혜자의 몫(40)이 절대 평등 사회 A(30)보다 더 높기 때문입니다. (단, 실제 판단 시에는 다른 정의의 원칙 충족과 가능한 사회 제도에 대한 고려가 전제되어야 합니다.)"
+      },
+      {
+        "title": "천부적 재능과 누진적 재분배 제도",
+        "situation": "타고난 음악적 재능과 유리한 가정환경 덕분에 막대한 부를 얻은 예술가에게 사회 기본 구조를 통해 조세를 부과하여 사회적 약자의 기본적 필요와 복지를 지원하는 정책",
+        "philosopherView": "롤스는 천부적 재능의 분포와 사회적 우연성은 도덕적 응분의 자격이 아니므로, 이를 공동의 자산으로 보아 최소 수혜자에게 이익이 되도록 사회 기본 구조를 설계해야 한다고 봅니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (존 롤스 『정의론』 제2장 정의의 원칙 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_rawls_equal_liberty",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "rawls",
+    "philosopherName": "롤스",
+    "conceptName": "평등한 자유의 원칙",
+    "definition": "모든 사람은 다른 사람들의 유사한 자유 체계와 양립할 수 있는 가장 광범위한 기본적 자유에 대해 동등한 권리를 가져야 한다는 롤스의 정의의 제1원칙입니다.",
+    "keyPrinciples": [
+      "정치적 자유(투표권 등), 언론과 집회의 자유, 양심과 사상의 자유, 인신의 자유, 사유 재산을 소유할 권리 등 기본적 자유는 모든 시민에게 평등하게 보장되어야 한다.",
+      "정의의 제1원칙은 제2원칙(차등의 원칙, 공정한 기회균등의 원칙)보다 사전적(축차적)으로 우선한다.",
+      "기본적 자유는 오직 자유 그 자체를 위해서만 제한될 수 있으며, 경제적 효율성이나 사회적 복지의 증진을 이유로 침해될 수 없다."
+    ],
+    "necessaryConditions": [
+      "다른 사람의 기본적 자유와 양립 가능한 범위 내에서 최대한 보장되어야 한다.",
+      "사회 전체의 경제적 이익이나 최소 수혜자의 경제적 혜택을 이유로 기본적 자유를 거래하거나 양보할 수 없다."
+    ],
+    "commonMisconceptions": [
+      "최소 수혜자의 복지를 크게 높일 수 있다면 일부 시민의 참정권이나 표현의 자유를 제한할 수 있다고 오해함",
+      "롤스는 재산권을 전혀 인정하지 않는다고 오해함 (롤스도 개인적 재산 소유 권리를 기본적 자유의 일부로 인정함, 단 생산수단 소유 형태는 별개)"
+    ],
+    "relatedConceptIds": [
+      "concept_rawls_fair_opportunity",
+      "concept_rawls_difference",
+      "concept_rawls_procedural_justice"
+    ],
+    "contrastingConceptIds": [
+      "concept_nozick_entitlement"
+    ],
+    "relatedOptionIds": [
+      "q2025_06_11_opt1",
+      "q2025_06_11_opt5",
+      "q2024_11_09_opt2",
+      "q2024_06_05_opt1"
+    ],
+    "examples": [
+      {
+        "title": "경제 성장을 위한 기본권 유보 논쟁",
+        "situation": "국가 전체의 경제 파이를 키우고 빈곤층 지원 예산을 확보하기 위해 시민의 언론·집회의 자유를 일시적으로 제한하자는 주장",
+        "philosopherView": "롤스는 이를 단호히 거부합니다. 제1원칙(평등한 자유의 원칙)은 제2원칙보다 축차적으로 우선하므로, 경제적·사회적 이득을 위해 기본적 자유를 희생시킬 수 없습니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (존 롤스 『정의론』 제1원칙 및 우선성 규칙 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_rawls_fair_opportunity",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "rawls",
+    "philosopherName": "롤스",
+    "conceptName": "공정한 기회균등의 원칙",
+    "definition": "사회적·경제적 불평등의 계기가 되는 직책과 지위는 형식적 평등을 넘어 실질적으로 공정한 기회균등의 조건 아래 모든 사람에게 개방되어야 한다는 원칙입니다.",
+    "keyPrinciples": [
+      "유사한 능력과 재능, 동기를 가진 사람들은 출신 계층이나 사회적 배경에 관계없이 성공할 수 있는 동등한 기회를 가져야 한다.",
+      "단순히 법적으로만 자격을 열어두는 '형식적 기회균등'을 넘어, 사회적 우연성(가정 배경 등)의 불리함을 보완하는 '공정한(실질적) 기회균등'을 지향한다.",
+      "축차적 순서상 평등한 자유의 원칙보다는 후순위이지만, 차등의 원칙보다는 우선한다."
+    ],
+    "necessaryConditions": [
+      "공교육 지원 등을 통해 사회적·경제적 배경으로 인한 출발선의 불공정을 교정하는 제도가 뒷받침되어야 한다.",
+      "최소 수혜자의 소득을 높인다는 이유로 특정 직위나 직책의 접근 기회를 불공정하게 제한할 수 없다."
+    ],
+    "commonMisconceptions": [
+      "법적으로 차별 조항만 없애면 공정한 기회균등이 완성된다고 오해함",
+      "차등의 원칙이 공정한 기회균등의 원칙보다 우선한다고 순서를 혼동함"
+    ],
+    "relatedConceptIds": [
+      "concept_rawls_equal_liberty",
+      "concept_rawls_difference"
+    ],
+    "contrastingConceptIds": [
+      "concept_nozick_transfer"
+    ],
+    "relatedOptionIds": [
+      "q2025_06_11_opt2",
+      "q2024_11_09_opt3",
+      "q2024_06_05_opt3"
+    ],
+    "examples": [
+      {
+        "title": "저소득층 학생을 위한 공교육 및 장학 제도",
+        "situation": "잠재력과 학업 의지는 같으나 가정 형편 때문에 교육 기회를 얻지 못하는 학생들에게 공적 교육 자원을 지원하는 정책",
+        "philosopherView": "롤스는 사회적 우연성(부모의 경제력 등)이 직위와 직책에 접근할 기회를 가로막지 않도록 공정한 기회균등의 원칙을 제도화해야 한다고 봅니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (존 롤스 『정의론』 공정한 기회균등 절 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_rawls_procedural_justice",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "rawls",
+    "philosopherName": "롤스",
+    "conceptName": "순수 절차적 정의와 원초적 입장",
+    "definition": "올바른 결과에 대한 독립적인 기준은 따로 없지만, 공정한 절차가 마련되어 있고 그 절차가 제대로 지켜지기만 하면 그 결과 역시 공정하다고 보는 롤스의 정의관입니다.",
+    "keyPrinciples": [
+      "원초적 입장에서 당사자들은 '무지의 베일(veil of ignorance)'을 쓰고 자신의 사회적 지위, 천부적 재능, 가치관을 모른 채 정의의 원칙에 합의한다.",
+      "원초적 입장의 당사자들은 상호 무관심한 합리적 개인으로 가정되며, 자신이 최소 수혜자가 될 가능성에 대비해 위험 회피적(maximin) 선택을 한다.",
+      "합의된 정의의 원칙에 따라 사회 기본 구조가 작동한다면 그로부터 나오는 분배 몫은 무엇이든 정의롭다(순수 절차적 정의)."
+    ],
+    "necessaryConditions": [
+      "무지의 베일 아래에서 개인의 특수한 조건은 가려지지만, 인간 사회에 관한 일반적인 사실(경제학·심리학의 기초 법칙 등)은 알고 있다.",
+      "원초적 입장은 역사적으로 실재했던 사건이 아니라 공정한 합의를 도출하기 위한 가상적 사고실험이다."
+    ],
+    "commonMisconceptions": [
+      "원초적 입장의 당사자들이 타인을 배려하는 이타심 때문에 차등의 원칙에 합의한다고 오해함 (실제로는 상호 무관심한 합리성 가정)",
+      "무지의 베일을 쓰면 사회·경제에 관한 일반적 지식까지 모두 모른다고 오해함"
+    ],
+    "relatedConceptIds": [
+      "concept_rawls_equal_liberty",
+      "concept_rawls_difference"
+    ],
+    "contrastingConceptIds": [
+      "concept_nozick_entitlement"
+    ],
+    "relatedOptionIds": [
+      "q2025_06_11_opt4",
+      "q2024_09_14_opt1",
+      "q2024_09_14_opt5",
+      "q2024_06_05_opt2"
+    ],
+    "examples": [
+      {
+        "title": "무지의 베일 뒤에서 규칙 정하기",
+        "situation": "내가 부유한 가문에서 태어날지, 장애나 빈곤을 겪는 가정에서 태어날지 전혀 모르는 상태에서 사회의 세금 및 복지 규칙을 투표로 정하는 상황",
+        "philosopherView": "누구도 자신이 가장 불리한 위치(최소 수혜자)에 처할 가능성을 배제할 수 없으므로, 합리적 개인들은 최소 수혜자의 처지를 최대로 끌어올리는 원칙에 합의하게 됩니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (존 롤스 『정의론』 원초적 입장과 무지의 베일 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_nozick_acquisition",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "nozick",
+    "philosopherName": "노직",
+    "conceptName": "정당한 취득의 원리",
+    "definition": "소유되지 않은 사물을 최초로 획득하는 과정이 타인의 처지를 악화시키지 않고 정당하게 이루어졌다면, 그 사물에 대한 배타적 소유 권리를 갖는다는 노직 소유 권리론의 제1원리입니다.",
+    "keyPrinciples": [
+      "개인은 자신의 신체와 노동, 천부적 재능에 대해 완전한 자기 소유권(self-ownership)을 지닌다.",
+      "최초 취득 과정에서 타인의 자유나 권리를 침해하지 않고 정당하게 획득한 재화는 그 개인의 정당한 소유물이다.",
+      "타인의 상황을 이전보다 악화시키지 않는다는 조건(로크적 단서)이 충족될 때 최초 취득의 정당성이 확보된다."
+    ],
+    "necessaryConditions": [
+      "사기, 강탈, 폭력 등 부당한 방법을 사용하지 않아야 한다.",
+      "독점으로 인해 타인이 생존에 필수적인 자원을 전혀 이용할 수 없게 만드는 등 타인의 처지를 부당하게 악화시키지 않아야 한다."
+    ],
+    "commonMisconceptions": [
+      "노직은 어떠한 조건도 없이 먼저 차지하기만 하면 무조건 영구 독점이 정당화된다고 오해함",
+      "천부적 재능을 발휘해 얻은 최초 산출물도 사회 공동의 자산이라고 오해함 (롤스와 혼동)"
+    ],
+    "relatedConceptIds": [
+      "concept_nozick_transfer",
+      "concept_nozick_rectification",
+      "concept_nozick_entitlement"
+    ],
+    "contrastingConceptIds": [
+      "concept_rawls_difference"
+    ],
+    "relatedOptionIds": [
+      "q2025_09_07_opt3",
+      "q2024_11_09_opt5",
+      "q2024_09_14_opt3"
+    ],
+    "examples": [
+      {
+        "title": "무주지 개간과 자기 노동의 결합",
+        "situation": "아무도 소유하지 않던 황무지를 다른 사람의 이용 기회를 부당하게 해치지 않으면서 자신의 노력으로 개간하여 농작물을 수확한 경우",
+        "philosopherView": "노직은 자기 소유권에 기초하여 자신의 노동과 재능으로 정당하게 최초 취득한 농작물에 대해 그 개인이 배타적 소유 권리를 갖는다고 봅니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (로버트 노직 『아나키에서 유토피아로』 소유 권리론 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_nozick_transfer",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "nozick",
+    "philosopherName": "노직",
+    "conceptName": "정당한 이전의 원리",
+    "definition": "정당하게 보유한 소유물이 자유로운 교환, 증여, 상속 등 자발적인 과정을 통해 다른 사람에게 이전되었다면, 그 결과로 형성된 소유 역시 정당하다는 원리입니다.",
+    "keyPrinciples": [
+      "자유로운 시장 교환이나 자발적 증여를 통해 이전된 재화에 대해 국가는 강제적 재분배로 개입해서는 안 된다.",
+      "각 개인이 자신의 정당한 소유물을 자발적으로 건네준 결과로 큰 빈부 격차가 발생하더라도, 이전 과정이 공정했다면 그 결과는 정의롭다.",
+      "복지 재원 마련을 위한 국가의 강제적 근로소득 과세는 개인의 노동을 강제로 빼앗는 것과 유사하다고 비판한다."
+    ],
+    "necessaryConditions": [
+      "이전하는 사람이 애초에 그 재화에 대해 정당한 소유 권리를 가지고 있어야 한다.",
+      "강제, 협박, 사기가 없는 당사자 간의 자유롭고 자발적인 합의에 의해 이전되어야 한다."
+    ],
+    "commonMisconceptions": [
+      "노직은 부유층이 가난한 사람을 돕는 자발적 기부(자선)까지 반대한다고 오해함 (국가의 '강제적' 재분배를 반대할 뿐 자발적 기부는 정당한 이전으로 적극 인정함)",
+      "자유로운 교환의 결과로 불평등이 심화되면 국가가 정형적 기준으로 재분배해야 한다고 오해함"
+    ],
+    "relatedConceptIds": [
+      "concept_nozick_acquisition",
+      "concept_nozick_rectification",
+      "concept_nozick_entitlement"
+    ],
+    "contrastingConceptIds": [
+      "concept_rawls_difference",
+      "concept_rawls_fair_opportunity"
+    ],
+    "relatedOptionIds": [
+      "q2025_09_07_opt4",
+      "q2024_09_14_opt4",
+      "q2024_06_05_opt4"
+    ],
+    "examples": [
+      {
+        "title": "유명 농구선수(윌트 체임벌린) 사고실험",
+        "situation": "수많은 관중이 유명 농구선수의 경기를 보기 위해 자발적으로 입장료 중 25센트씩을 선수 몫의 상자에 넣은 결과, 그 선수가 일반인보다 훨씬 큰 부를 얻게 된 상황",
+        "philosopherView": "노직은 정당한 소유물을 가진 시민들이 자발적으로 이전한 결과이므로, 비록 큰 소득 불평등이 생겼더라도 그 선수의 고소득은 전적으로 정의롭다고 주장합니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (로버트 노직 『아나키에서 유토피아로』 체임벌린 사례 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_nozick_rectification",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "nozick",
+    "philosopherName": "노직",
+    "conceptName": "교정의 원리",
+    "definition": "과거의 취득이나 이전 과정에서 절도, 사기, 강탈 등 부정의가 발생했다면 이를 바로잡아 원래의 정당한 소유 상태를 회복해야 한다는 노직의 원리입니다.",
+    "keyPrinciples": [
+      "현재의 소유 상태가 과거의 부당한 강탈이나 사기에 기인한 것이라면 그 소유 권리는 정당화될 수 없다.",
+      "최소국가라도 과거의 부정의한 취득·이전을 바로잡기 위한 '교정의 정의'를 실현하기 위해 개입할 수 있다.",
+      "단, 교정을 위한 국가 개입은 일반적인 복지 재분배가 아니라 부정의한 역사적 과정을 바로잡는 것에 한정된다."
+    ],
+    "necessaryConditions": [
+      "취득의 원리 또는 이전의 원리를 위반한 역사적 부정의가 확인되어야 한다.",
+      "부정의가 없었을 경우 형성되었을 소유 상태를 추정하여 피해 구제 및 원상회복을 수행한다."
+    ],
+    "commonMisconceptions": [
+      "노직은 최소국가를 주장하므로 어떠한 경우에도 국가가 개인의 소유물에 개입할 수 없다고 오해함 (과거 부정의를 바로잡는 '교정'을 위한 개입은 인정함)",
+      "교정의 원리와 롤스의 차등의 원칙을 동일한 복지 재분배 정책으로 혼동함"
+    ],
+    "relatedConceptIds": [
+      "concept_nozick_acquisition",
+      "concept_nozick_transfer",
+      "concept_nozick_entitlement"
+    ],
+    "contrastingConceptIds": [
+      "concept_rawls_difference"
+    ],
+    "relatedOptionIds": [
+      "q2025_09_07_opt5",
+      "q2024_06_05_opt5"
+    ],
+    "examples": [
+      {
+        "title": "사기 및 불법 강탈 재산의 환수",
+        "situation": "과거에 부당한 사기 계약이나 폭력을 통해 타인의 토지를 빼앗아 축적한 재산이 확인된 경우",
+        "philosopherView": "노직에 따르면 이는 정당한 취득과 이전의 원리를 위배한 것이므로, 국가는 교정의 원리에 따라 부정의한 소유를 바로잡고 피해자에게 반환하도록 개입해야 합니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (로버트 노직 『아나키에서 유토피아로』 교정의 원리 재구성)",
+    "isDemo": true
+  },
+  {
+    "conceptId": "concept_nozick_entitlement",
+    "subject": "life_ethics",
+    "subjectName": "생활과 윤리",
+    "unit": "사회 정의",
+    "philosopherId": "nozick",
+    "philosopherName": "노직",
+    "conceptName": "소유 권리론과 역사적·비정형적 원리",
+    "definition": "분배의 정의는 특정한 정형(도덕적 공적, 필요, 능력 등)이나 결과적 상태가 아니라, 소유물이 어떻게 형성되고 이전되었는가 하는 '역사적 과정'에 달려 있다는 노직의 핵심 입장입니다.",
+    "keyPrinciples": [
+      "노직의 소유 권리론은 분배가 이루어진 과거의 과정을 중시하는 '역사적 원리'이자, 특정 공식에 맞춰 분배 결과를 재단하지 않는 '비정형적 원리'이다.",
+      "'각자에게 ~에 따라 분배하라'는 식의 정형적 원리(patterned principle)는 개인의 자유로운 교환을 지속적으로 침해하므로 부정의하다.",
+      "국가의 역할은 개인의 신체와 재산을 보호하고 계약을 집행하는 야경국가(최소국가)에 머물러야 한다."
+    ],
+    "necessaryConditions": [
+      "취득·이전·교정의 세 원리에 따라 소유 권리의 정당성을 판단한다.",
+      "개인의 천부적 자산과 그로 인한 산출물에 대한 배타적 권리를 존중해야 한다."
+    ],
+    "commonMisconceptions": [
+      "노직의 분배 원리를 '개인의 업적이나 능력에 따라 분배하는 정형적 원리'라고 오해함 (노직은 모든 정형적 원리를 비판하며 비정형적 원리를 주장함)",
+      "롤스와 노직 모두 절차적 정의를 부정한다고 오해함 (두 사상가 모두 각자의 방식으로 절차적 정의를 중시함)"
+    ],
+    "relatedConceptIds": [
+      "concept_nozick_acquisition",
+      "concept_nozick_transfer",
+      "concept_nozick_rectification"
+    ],
+    "contrastingConceptIds": [
+      "concept_rawls_difference",
+      "concept_rawls_procedural_justice"
+    ],
+    "relatedOptionIds": [
+      "q2025_09_07_opt3",
+      "q2025_09_07_opt4",
+      "q2024_11_09_opt5",
+      "q2024_09_14_opt3",
+      "q2024_06_05_opt4"
+    ],
+    "examples": [
+      {
+        "title": "정형적 분배(예: IQ나 노력 점수 비례 분배)에 대한 비판",
+        "situation": "국가가 모든 시민에게 도덕적 공적이나 필요에 따라 재산을 똑같이 배분해 놓았더라도, 하루 동안 시민들이 자발적으로 영화표를 사고 선물을 주고받으면 그 정형(패턴)은 즉시 깨진다.",
+        "philosopherView": "노직은 특정 정형(패턴)을 유지하려면 국가가 시민들의 자발적 교환을 끊임없이 금지하거나 빼앗아야 하므로, 정형적 분배 원리는 개인의 자유를 침해한다고 비판합니다."
+      }
+    ],
+    "source": "선지로그 데모 교육자료 (로버트 노직 『아나키에서 유토피아로』 정형적 원리 비판 재구성)",
+    "isDemo": true
+  }
+]
+
